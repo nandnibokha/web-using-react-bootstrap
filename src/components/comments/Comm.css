@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One|Life+Savers|Flamenco|Bigelow+Rules|Underdog|Goudy+Bookletter+1911|Nixie+One|Tangerine|Poiret+One|Allura);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav-color: #000;
+    --nav-color-hover: #ef8859;
+    --para-color: #6c6c6c;
+    --btn-color: #000;
+    --sale-color: #ef8859;
+    --old-price-color: #868686;
+    --new-price-color: #3c3c3c;
+    --hot-sale-color: #9db97b;
+    --date-color: #fff;
+    --category-bg-color: #e8f0f3;
+}
+.con{
+    padding: 40px 40px 0px;
+}
+.comm .box{
+    width: 584px;
+    height: 398px;
+    border: 1px solid #d9d9d9;
+    transform: translateY(60%);
+    margin-left: 25px;
+}
+.star img{
+    width: 20px;
+    padding: 0 0 20px;
+}
+.content h2{
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 2.6px;
+    margin-bottom: 35px;
+    margin-top: 0;
+    color: var(--btn-color);
+}
+.content p{
+    color: var(--para-color);
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.profile h2{
+    display: inline-block;
+    margin-left: 20px;
+    color: var(--para-color);
+    font-size: 13px;
+    letter-spacing: 2.4px;
+}

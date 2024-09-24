@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One|Life+Savers|Flamenco|Bigelow+Rules|Underdog|Goudy+Bookletter+1911|Nixie+One|Tangerine|Poiret+One|Allura);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav-color: #000;
+    --nav-color-hover: #ef8859;
+    --para-color: #6c6c6c;
+    --btn-color: #000;
+    --sale-color: #ef8859;
+    --old-price-color: #868686;
+    --new-price-color: #3c3c3c;
+    --hot-sale-color: #9db97b;
+    --date-color: #fff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -var(--gutter-width);
+    margin-right: -var(--gutter-width);
+    padding: 20px 0;
+}
+.heading h3{
+    transform: translateY(2000%);
+    font-size: 13px;
+    letter-spacing: 9.1px;
+    color: var(--nav-color);
+    margin: 0 0 15px;
+}
+.heading h2{
+    transform: translateY(750%);
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 7px;
+}
+.email{
+    transform: translateY(1100%);
+    border: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    background-color: transparent;
+    width: 100%;
+}
+.email input{
+    border: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    background-color: transparent;
+}
+.con h4{
+    transform: translateY(2200%);
+    font-size: 20px;
+    font-weight: 500;
+}
+.con h5{
+    transform: translateY(3000%);
+    color: var(--para-color);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.con-2 h5{
+    transform: translateY(3180%);
+    color: var(--para-color);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.con-2 h4{
+    transform: translateY(2650%);
+    font-size: 18px;
+}
+.con-3 h2{
+    transform: translateY(2850%);
+    font-size: 20px;
+    font-weight: 500;
+}
+.con-3 .icon{
+    transform: translateY(1230%);
+    font-size: 30px;
+}
+.con-3 .icon i{
+    padding-right: 20px;
+}

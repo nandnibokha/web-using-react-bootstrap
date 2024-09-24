@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One|Life+Savers|Flamenco|Bigelow+Rules|Underdog|Goudy+Bookletter+1911|Nixie+One|Tangerine|Poiret+One|Allura);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav-color: #000;
+    --nav-color-hover: #ef8859;
+    --para-color: #6c6c6c;
+    --btn-color: #000;
+    --sale-color: #ef8859;
+    --old-price-color: #868686;
+    --new-price-color: #3c3c3c;
+    --hot-sale-color: #9db97b;
+    --date-color: #fff;
+}
+.images img{
+    width: 272px;
+    transform: translateY(90%);
+    transition: all .3s ease;
+}
+.images img:hover{
+    transform: translateY(90%) scale(1.2);
+    z-index: 1;
+    transition: all .3s ease;
+}

@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One|Life+Savers|Flamenco|Bigelow+Rules|Underdog|Goudy+Bookletter+1911|Nixie+One|Tangerine|Poiret+One|Allura);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav-color: #000;
+    --nav-color-hover: #ef8859;
+    --para-color: #6c6c6c;
+    --btn-color: #000;
+    --sale-color: #ef8859;
+    --old-price-color: #868686;
+    --new-price-color: #3c3c3c;
+    --hot-sale-color: #9db97b;
+    --date-color: #fff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -var(--gutter-width);
+    margin-right: -var(--gutter-width);
+    padding: 20px 0;
+}
+.product{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.pro-images{
+    overflow: hidden;
+}
+.pro-img1{
+    transition: 0.3s;
+}
+.pro-img1:hover {
+    transform: scale(1.1);
+}
+.pro-img2{
+    transition: 0.3s;
+}
+.pro-img2:hover {
+    transform: scale(1.1);
+}
+.pro-img3{
+    transition: 0.3s;
+}
+.pro-img3:hover {
+    transform: scale(1.1);
+}
+.pro-img1{
+    width: 580px;
+    height: 470px;
+    background-image: url(../../assets/images/product-1.jpg);
+}
+.pro-img2{
+    width: 580px;
+    height: 470px;
+    background-image: url(../../assets/images/product-2.jpg);
+}
+.pro-img3{
+    width: 580px;
+    height: 470px;
+    background-image: url(../../assets/images/product-3.jpg);
+}
+.pro-text h6{
+    color: var(--nav-color);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.pro-text h2{
+    color: var(--nav-color);
+    font-size: 24px;
+    letter-spacing: 4.8px;
+}
+.pro-text a{
+    color: var(--nav-color);
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+.pro-text a:hover{
+    color: var(--nav-color-hover);
+    transition: all .3s ease;
+}
+.pro-text{
+    padding: 0 50px 50px;
+    transform: translateY(250%);
+}

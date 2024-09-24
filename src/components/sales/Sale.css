@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One|Life+Savers|Flamenco|Bigelow+Rules|Underdog|Goudy+Bookletter+1911|Nixie+One|Tangerine|Poiret+One|Allura);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav-color: #000;
+    --nav-color-hover: #ef8859;
+    --para-color: #6c6c6c;
+    --btn-color: #000;
+    --sale-color: #ef8859;
+    --old-price-color: #868686;
+    --new-price-color: #3c3c3c;
+    --hot-sale-color: #9db97b;
+    --date-color: #fff;
+}
+.sale h2{
+    color: var(--nav-color);
+    font-size: 36px;
+    letter-spacing: 7px;
+    line-height: 45px;
+    margin-top: 60px;
+}
+.sale-img{
+    padding: 220px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.sale-item {
+    overflow: hidden;
+}
+.add-to-cart {
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--date-color);
+    color: var(--btn-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+    margin-left: 50%;
+    border-radius: 4px;
+    margin-top: 40%;
+}
+.add-to-cart:hover{
+    background-color: var(--sale-color);
+    color: var(--date-color);
+    transition: all 0.3s ease;
+}
+.sale-item:hover .add-to-cart {
+    bottom: 20px;
+    opacity: 1;
+}
+.sale-item:hover .like img {
+    bottom: 20px;
+    opacity: 1;
+}
+.sale-img1{
+    background-image: url(../../assets/images/sale1.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s ease;
+}
+.sale-img1:hover{
+    background-image: url(../../assets/images/sale1-1.jpg);
+    transition: all .3s ease;
+}
+.sale-img2{
+    background-image: url(../../assets/images/sale2.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img2:hover{
+    background-image: url(../../assets/images/sale2-2.jpg);
+    transition: all .3s ease;
+}
+.sale-img3{
+    background-image: url(../../assets/images/sale3.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img3:hover{
+    background-image: url(../../assets/images/sale3-3.jpg);
+    transition: all .3s ease;
+}
+.sale-img4{
+    background-image: url(../../assets/images/sale4.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img4:hover{
+    background-image: url(../../assets/images/sale4-4.jpg);
+    transition: all .3s ease;
+}
+.sale-img5{
+    background-image: url(../../assets/images/sale5.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img5:hover{
+    background-image: url(../../assets/images/sale5-5.jpg);
+    transition: all .3s ease;
+}
+.sale-img6{
+    background-image: url(../../assets/images/sale6.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img6:hover{
+    background-image: url(../../assets/images/sale6-6.jpg);
+    transition: all .3s ease;
+}
+.sale-img7{
+    background-image: url(../../assets/images/sale7.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img7:hover{
+    background-image: url(../../assets/images/sale7-7.jpg);
+    transition: all .3s ease;
+}
+.sale-img8{
+    background-image: url(../../assets/images/sale8.jpg);
+    width: 330px;
+    height: 396px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.sale-img8:hover{
+    background-image: url(../../assets/images/sale8-8.jpg);
+    transition: all .3s ease;
+}
+.box span{
+    background-color: var(--sale-color);
+    width: 36px;
+    height: 18px;
+    font-size: 12px;
+    color: var(--date-color);
+    padding: 0 8px;
+}
+.box{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.box-2{
+    padding-top: 15px;
+    padding-left: 6px;
+}
+.box-2 span{
+    background-color: var(--hot-sale-color);
+    width: 36px;
+    height: 18px;
+    font-size: 12px;
+    color: var(--date-color);
+    padding: 0 8px;
+}
+.sale-text span{
+    color: var(--nav-color);
+    font-size: 13px;
+    letter-spacing: 3px;
+    transition: all .3s ease;
+}
+.sale-text span:hover{
+    color: var(--nav-color-hover);
+    transition: all .3s ease;
+}
+.price a{
+    color: var(--new-price-color);
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+.sale-text{
+    padding-top: 20px;
+}
